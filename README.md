@@ -110,7 +110,7 @@ CL-USER> (ultralisp-client:get-project-systems **)
 
 <a id="x-28-23A-28-2816-29-20BASE-CHAR-20-2E-20-22ULTRALISP-CLIENT-22-29-20PACKAGE-29"></a>
 
-#### [package](9d1b) `ultralisp-client`
+#### [package](6999) `ultralisp-client`
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-7C-40ULTRALISP-CLIENT-3FGenerics-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -118,11 +118,11 @@ CL-USER> (ultralisp-client:get-project-systems **)
 
 <a id="x-28ULTRALISP-CLIENT-3AGET-PROJECT-SYSTEMS-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](03a9) `ultralisp-client:get-project-systems` project
+##### [generic-function](bb2b) `ultralisp-client:get-project-systems` project
 
 <a id="x-28ULTRALISP-CLIENT-3AGET-PROJECT-TAGS-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](d522) `ultralisp-client:get-project-tags` project
+##### [generic-function](156a) `ultralisp-client:get-project-tags` project
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-7C-40ULTRALISP-CLIENT-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -130,17 +130,17 @@ CL-USER> (ultralisp-client:get-project-systems **)
 
 <a id="x-28ULTRALISP-CLIENT-3AGET-ALL-TAGS-20FUNCTION-29"></a>
 
-##### [function](562a) `ultralisp-client:get-all-tags`
+##### [function](efb3) `ultralisp-client:get-all-tags`
 
 Returns a list of all known tags and numbers of projects associated with them.
 
 <a id="x-28ULTRALISP-CLIENT-3AGET-PROJECT-BY-NAME-20FUNCTION-29"></a>
 
-##### [function](5187) `ultralisp-client:get-project-by-name` name
+##### [function](f92c) `ultralisp-client:get-project-by-name` name
 
 <a id="x-28ULTRALISP-CLIENT-3AGET-PROJECTS-BY-TAG-20FUNCTION-29"></a>
 
-##### [function](14ee) `ultralisp-client:get-projects-by-tag` tag
+##### [function](ce90) `ultralisp-client:get-projects-by-tag` tag
 
 Returns projects having a given tag.
 
@@ -150,7 +150,7 @@ Returns projects having a given tag.
 
 <a id="x-28-23A-28-2823-29-20BASE-CHAR-20-2E-20-22ULTRALISP-CLIENT-2FCLIENT-22-29-20PACKAGE-29"></a>
 
-#### [package](8f1c) `ultralisp-client/client`
+#### [package](50d6) `ultralisp-client/client`
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-7C-40ULTRALISP-CLIENT-2FCLIENT-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -158,7 +158,7 @@ Returns projects having a given tag.
 
 <a id="x-28ULTRALISP-CLIENT-2FCLIENT-3AENSURE-CONNECTED-20FUNCTION-29"></a>
 
-##### [function](3be0) `ultralisp-client/client:ensure-connected` &optional (url \*url\*)
+##### [function](0cc9) `ultralisp-client/client:ensure-connected` &optional (url \*url\*)
 
 Use this function to override `URL` if it is different from default https://ultralisp.org/api/.
 
@@ -168,7 +168,7 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28-23A-28-2825-29-20BASE-CHAR-20-2E-20-22ULTRALISP-CLIENT-2FLOWLEVEL-22-29-20PACKAGE-29"></a>
 
-#### [package](74f9) `ultralisp-client/lowlevel`
+#### [package](750f) `ultralisp-client/lowlevel`
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-7C-40ULTRALISP-CLIENT-2FLOWLEVEL-3FClasses-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -180,7 +180,7 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AAPI-20CLASS-29"></a>
 
-###### [class](813a) `ultralisp-client/lowlevel:api` (client)
+###### [class](cc38) `ultralisp-client/lowlevel:api` (client)
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-40ULTRALISP-CLIENT-2FLOWLEVEL-24PROJECT2-3FCLASS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -188,41 +188,41 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-20CLASS-29"></a>
 
-###### [class](813a) `ultralisp-client/lowlevel:project2` ()
+###### [class](cc38) `ultralisp-client/lowlevel:project2` ()
 
 **Readers**
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-CREATED-AT-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-created-at` (project2) (:created-at = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-created-at` (project2) (:created-at = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-DELETED-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-deleted` (project2) (:deleted = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-deleted` (project2) (:deleted = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-DESCRIPTION-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-description` (project2) (:description = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-description` (project2) (:description = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-ID-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-id` (project2) (:id = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-id` (project2) (:id = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-LATEST-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-latest` (project2) (:latest = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-latest` (project2) (:latest = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-NAME-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-name` (project2) (:name = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-name` (project2) (:name = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-UPDATED-AT-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-updated-at` (project2) (:updated-at = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-updated-at` (project2) (:updated-at = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-VERSION-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3APROJECT2-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:project2-version` (project2) (:version = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:project2-version` (project2) (:version = nil)
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-40ULTRALISP-CLIENT-2FLOWLEVEL-24SEARCH-RESULT-3FCLASS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -230,29 +230,29 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-20CLASS-29"></a>
 
-###### [class](813a) `ultralisp-client/lowlevel:search-result` ()
+###### [class](cc38) `ultralisp-client/lowlevel:search-result` ()
 
 **Readers**
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-DOCUMENTATION-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:search-result-documentation` (search-result) (:documentation = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:search-result-documentation` (search-result) (:documentation = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-PACKAGE-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:search-result-package` (search-result) (:package = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:search-result-package` (search-result) (:package = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-SYMBOL-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:search-result-symbol` (search-result) (:symbol = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:search-result-symbol` (search-result) (:symbol = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-SYSTEM-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:search-result-system` (search-result) (:system = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:search-result-system` (search-result) (:system = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-TYPE-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-RESULT-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:search-result-type` (search-result) (:type = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:search-result-type` (search-result) (:type = nil)
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-40ULTRALISP-CLIENT-2FLOWLEVEL-24SYSTEM-INFO-3FCLASS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -260,25 +260,25 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-20CLASS-29"></a>
 
-###### [class](813a) `ultralisp-client/lowlevel:system-info` ()
+###### [class](cc38) `ultralisp-client/lowlevel:system-info` ()
 
 **Readers**
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-DEPENDENCIES-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:system-info-dependencies` (system-info) (:dependencies = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:system-info-dependencies` (system-info) (:dependencies = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-FILENAME-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:system-info-filename` (system-info) (:filename = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:system-info-filename` (system-info) (:filename = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-NAME-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:system-info-name` (system-info) (:name = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:system-info-name` (system-info) (:name = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-PROJECT-NAME-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ASYSTEM-INFO-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:system-info-project-name` (system-info) (:project-name = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:system-info-project-name` (system-info) (:project-name = nil)
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-40ULTRALISP-CLIENT-2FLOWLEVEL-24TAG-3FCLASS-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -286,17 +286,17 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ATAG-20CLASS-29"></a>
 
-###### [class](813a) `ultralisp-client/lowlevel:tag` ()
+###### [class](cc38) `ultralisp-client/lowlevel:tag` ()
 
 **Readers**
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ATAG-NAME-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ATAG-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:tag-name` (tag) (:name = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:tag-name` (tag) (:name = nil)
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ATAG-PROJECT-COUNT-20-2840ANTS-DOC-2FLOCATIVES-3AREADER-20ULTRALISP-CLIENT-2FLOWLEVEL-3ATAG-29-29"></a>
 
-###### [reader](813a) `ultralisp-client/lowlevel:tag-project-count` (tag) (:project-count = nil)
+###### [reader](cc38) `ultralisp-client/lowlevel:tag-project-count` (tag) (:project-count = nil)
 
 <a id="x-28ULTRALISP-CLIENT-DOCS-2FINDEX-3A-3A-7C-40ULTRALISP-CLIENT-2FLOWLEVEL-3FGenerics-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -304,41 +304,41 @@ Use this function to override `URL` if it is different from default https://ultr
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AGET-ALL-TAGS-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:get-all-tags` client
+##### [generic-function](cc38) `ultralisp-client/lowlevel:get-all-tags` client
 
 Returns known tags and a number of projects associated with each tag. Tags are sorted alphabetically.
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AGET-PROJECT-BY-NAME-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:get-project-by-name` client name
+##### [generic-function](cc38) `ultralisp-client/lowlevel:get-project-by-name` client name
 
 Returns a project details by it's name. Name should be in it's full form like "40ants/doc".
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AGET-PROJECT-SYSTEMS-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:get-project-systems` client project-id
+##### [generic-function](cc38) `ultralisp-client/lowlevel:get-project-systems` client project-id
 
 Retrieve all systems of a given project.
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AGET-PROJECT-TAGS-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:get-project-tags` client project-id
+##### [generic-function](cc38) `ultralisp-client/lowlevel:get-project-tags` client project-id
 
 Retrieve all tags of a single project.
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AGET-PROJECTS-BY-TAG-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:get-projects-by-tag` client tag &key limit page-key
+##### [generic-function](cc38) `ultralisp-client/lowlevel:get-projects-by-tag` client tag &key limit page-key
 
 Returns project market by a given tag.
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ARPC-DISCOVER-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:rpc-discover` client
+##### [generic-function](cc38) `ultralisp-client/lowlevel:rpc-discover` client
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3ASEARCH-SYMBOLS-20GENERIC-FUNCTION-29"></a>
 
-##### [generic-function](813a) `ultralisp-client/lowlevel:search-symbols` client term &key limit page-key
+##### [generic-function](cc38) `ultralisp-client/lowlevel:search-symbols` client term &key limit page-key
 
 Search a symbol by it's name or docstring.
 
@@ -348,21 +348,21 @@ Search a symbol by it's name or docstring.
 
 <a id="x-28ULTRALISP-CLIENT-2FLOWLEVEL-3AMAKE-API-20FUNCTION-29"></a>
 
-##### [function](813a) `ultralisp-client/lowlevel:make-api`
+##### [function](cc38) `ultralisp-client/lowlevel:make-api`
 
 
 [0dbb]: https://github.com/ultralisp/ultralisp-client
 [73c0]: https://github.com/ultralisp/ultralisp-client/actions
-[8f1c]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/client.lisp#L1
-[3be0]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/client.lisp#L17
-[9d1b]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/core.lisp#L1
-[74f9]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/lowlevel.lisp#L1
-[813a]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/lowlevel.lisp#L8
-[5187]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/projects.lisp#L14
-[14ee]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/projects.lisp#L19
-[d522]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/projects.lisp#L35
-[03a9]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/projects.lisp#L44
-[562a]: https://github.com/ultralisp/ultralisp-client/blob/5d409ce50f968f2aa358b6a174c2dc2beffe850f/src/tags.lisp#L11
+[50d6]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/client.lisp#L1
+[0cc9]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/client.lisp#L17
+[6999]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/core.lisp#L1
+[750f]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/lowlevel.lisp#L1
+[cc38]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/lowlevel.lisp#L8
+[f92c]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/projects.lisp#L14
+[ce90]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/projects.lisp#L19
+[156a]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/projects.lisp#L35
+[bb2b]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/projects.lisp#L44
+[efb3]: https://github.com/ultralisp/ultralisp-client/blob/ddfa47f6c220bc42e65fa397ee32964f76053f23/src/tags.lisp#L11
 [4af5]: https://github.com/ultralisp/ultralisp-client/issues
 [b8fd]: https://quickdocs.org/openrpc-client
 [3b3d]: https://ultralisp.github.io/ultralisp-client/
