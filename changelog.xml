@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0">
+    <channel>
+        <title>ultralisp-client-docs ChangeLog</title>
+        <link>https://ultralisp.github.io/ultralisp-client/</link>
+        <generator>xml-emitter</generator>
+        <language>en-us</language>
+        <item>
+            <title>0.2.0  (2023-08-21)</title>
+            <description>&lt;ul&gt;&lt;li&gt;&lt;p&gt;Client updated to show release info and information about project systems.
+Use &lt;a href=&quot;https://ultralisp.github.io/ultralisp-client/#x-28ULTRALISP-CLIENT-3AGET-PROJECT-SOURCES-20GENERIC-FUNCTION-29&quot; data-document=&quot;https://ultralisp.github.io/ultralisp-client/&quot; data-node=&quot;x-28ULTRALISP-CLIENT-3AGET-PROJECT-SOURCES-20GENERIC-FUNCTION-29&quot;&gt;&lt;code&gt;ultralisp-client:get-project-sources&lt;/code&gt;&lt;/a&gt; generic-function for this.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+            <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>0.1.0  (2023-08-11)</title>
+            <description>&lt;ul&gt;&lt;li&gt;&lt;p&gt;Initial version.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+            <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+        </item>
+    </channel>
+</rss>
