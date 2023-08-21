@@ -8,6 +8,7 @@
    #:get-project-by-name
    #:get-projects-by-tag
    #:get-project-tags
-   #:get-project-systems))
+   #:get-project-systems
+   #:get-project-sources))
 (in-package #:ultralisp-client)
 

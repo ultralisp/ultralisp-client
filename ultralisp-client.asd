@@ -9,7 +9,12 @@
   :class :40ants-asdf-system
   :defsystem-depends-on ("40ants-asdf-system")
   :pathname "src"
-  :depends-on ("openrpc-client"
+  :serial t
+  :depends-on ("jsonrpc"
+               ;; Stupid Quicklisp client does not understand
+               ;; we need to download jsonrpc before jsonrpc/transport/http system :(((
+               "jsonrpc/transport/http"
+               "openrpc-client"
                "ultralisp-client/tags"
                "ultralisp-client/projects")
   :in-order-to ((test-op (test-op "ultralisp-client-tests"))))

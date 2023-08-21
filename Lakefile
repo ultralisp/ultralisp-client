@@ -1,0 +1,11 @@
+#|-*- mode:lisp -*-|#
+(in-package :lake/user)
+
+(task "update-spec" ()
+  "Updates spec.json"
+  (sh "curl -s \"https://ultralisp.org/api/openrpc.json\" | jq > spec.json"))
+
+
+(task "default" ()
+  "Show the help"
+  (display-tasks))

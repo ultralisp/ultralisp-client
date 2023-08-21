@@ -7,7 +7,8 @@
                 #:get-project-by-name
                 #:get-projects-by-tag
                 #:get-project-tags
-                #:get-project-systems))
+                #:get-project-systems
+                #:get-project-sources))
 (in-package #:ultralisp-client/projects)
 
 
@@ -47,3 +48,12 @@
                                                    project-id))
   (:method ((project ultralisp-client/lowlevel:project2))
     (get-project-systems (ultralisp-client/lowlevel:project2-id project))))
+
+
+(defgeneric get-project-sources (project)
+  (:documentation "Returns a list of project sources with their systems and release information.")
+  (:method ((project-id integer))
+    (ultralisp-client/lowlevel:get-project-sources (ensure-connected)
+                                                   project-id))
+  (:method ((project ultralisp-client/lowlevel:project2))
+    (get-project-sources (ultralisp-client/lowlevel:project2-id project))))
