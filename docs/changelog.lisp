@@ -9,5 +9,8 @@
                               "ASDF"
                               "REPL"
                               "HTTP"))
+  (0.2.0 2023-08-21
+         "* Client updated to show release info and information about project systems.
+            Use ULTRALISP-CLIENT:GET-PROJECT-SOURCES generic-function for this.")
   (0.1.0 2023-08-11
          "* Initial version."))
