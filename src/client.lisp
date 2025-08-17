@@ -2,6 +2,7 @@
   (:use #:cl)
   (:import-from #:ultralisp-client/lowlevel
                 #:make-api)
+  (:import-from #:jsonrpc)
   (:export
    #:ensure-connected))
 (in-package #:ultralisp-client/client)
@@ -19,9 +20,9 @@
   (when (or (null *client*)
             (not (equal url *url*)))
     (setf *client*
-          (jsonrpc/class:client-connect (make-api)
-                                        :mode :http
-                                        :url url))
+          (jsonrpc:client-connect (make-api)
+                                  :mode :http
+                                  :url url))
     (setf *url* url))
   
   (values *client*))
